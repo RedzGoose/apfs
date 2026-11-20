@@ -2,14 +2,20 @@ define config.auto_voice = "voice/{id}.ogg"
 
 define begmc = Character(_("You"), color="#000000")
 
+define mc = Character(_("[name]"), color="#000000")
+define mccut = Character(_("[name]"), color="#ffffff")
+
+# APFS STUFF ABOVE HERE
+
+
+
 define d = Character(_("Developer"), color="#000000")
 
 define n = Character("")
 define e = Character(_("Miss Esther"), color="#db35a9")
 define eold = Character(_("Esther"), color="#db35a9")
 
-define mc = Character(_("[name]"), color="#000000")
-define mccut = Character(_("[name]"), color="#ffffff")
+
 
 define k = Character(_("Kris"), color="#25a68c" )
 
